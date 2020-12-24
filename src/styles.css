@@ -1,12 +1,22 @@
-div {
-  height: 150px;
-  width: 150px;
+html {
   background-color: tomato;
 }
 
-span {
-  background-color: turquoise;
-  display: block;
+body {
+  /* 상하 좌우*/
+  margin: 20px 15px;
+
+  /* 위 오른쪽 아래 왼쪽 : 시계방향 */
+  margin: 20px 5px 12px 9px;
+
+  background-color: thistle;
+}
+
+div {
+  margin: 80px 15px; /** Collapsing margins : div의 마진을 바꿧는데 body의 마진도 옮겨짐 */
+  height: 150px;
+  width: 150px;
+  background-color: whitesmoke;
 }
 
 /**
@@ -22,3 +32,7 @@ span {
  * - border
  * - padding
  */
+
+/**
+ * user agent stylesheet -> 브라우저가 기본적으로 style을 제공했다라는 의미
+ **/
