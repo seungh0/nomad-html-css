@@ -1,11 +1,24 @@
-body {
-  background-color: rgb(219, 197, 197);
+div {
+  height: 150px;
+  width: 150px;
+  background-color: tomato;
 }
 
-h1 {
-  color: yellowgreen;
-  font-size: 25px;
-  font-style: italic;
-  text-decoration: underline;
-  text-align: center;
+span {
+  background-color: turquoise;
+  display: block;
 }
+
+/**
+ * display: inline: in-the-same-line 옆에 또 올 수 있음
+ * display: block: 옆에 아무것도 올 수 없음
+ */
+
+/**
+ * inline -> width, height 가 없음
+ * block -> width, height 가 있음
+ * box의 특성
+ * - margin
+ * - border
+ * - padding
+ */
