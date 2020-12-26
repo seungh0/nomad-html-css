@@ -1,0 +1,21 @@
+span {
+  background-color: teal;
+  padding: 20px;
+  margin: 30px; /** inline: 위 아래는 마진이 적용되지 않음 */
+}
+
+/** tomato class - can share */
+
+.btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.tomato {
+  background-color: tomato;
+  color: white;
+}
+
+.teal {
+  background-color: teal;
+}
