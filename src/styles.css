@@ -1,3 +1,7 @@
+* {
+  border: 1px dashed black;
+}
+
 html {
   background-color: tomato;
 }
@@ -16,6 +20,7 @@ body {
 
 div {
   padding: 10px;
+  border: 2px solid black;
 }
 
 /**
@@ -58,4 +63,8 @@ div {
   background-color: blanchedalmond;
   height: 20px;
   width: 20px;
+}
+
+span {
+  border-style: dotted;
 }
