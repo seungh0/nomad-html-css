@@ -37,3 +37,5 @@
 - absolute: relative 된 가장 가까운 부모를 찾는거이다. 아무것도 없으면 최상위 부모인 바디로 적용이 된다. relative를 기준으로 left, right, bottom을 설정하는 것이다.
 - static: 기본값
 - fixed: 화면 움직여도 고정값 (네비게이션 바 같은거)
+
+### Pseduo selector
