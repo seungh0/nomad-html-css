@@ -1,24 +1,29 @@
 body {
   height: 1000vh;
-  margin: 20px;
+  margin: 50px;
 }
 
 div {
-  /* position: fixed; */
   width: 300px;
   height: 300px;
-  color: white;
+  background-color: wheat;
+  position: relative;
 }
 
-#different {
-  background-color: wheat;
-}
-#green {
+.green {
   background-color: teal;
-  position: fixed;
-  opacity: 0.8;
-  left: 0px;
-  top: 0px;
-  height: 8vh;
-  width: 100%;
+  position: relative; /** 원래 위치 기준으로 변경됨 */
+  top: -10px;
+  left: -10px;
+  width: 100px;
+  height: 100px;
+}
+
+.blue {
+  background-color: blue;
+  height: 100px;
+  position: absolute; /** 가장 가까운 relative 부모 기준으로 설정된다 */
+  right: 0px;
+  bottom: 0px;
+  width: 100px;
 }
