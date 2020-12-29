@@ -15,8 +15,10 @@
 
 ### margin
 
+```css
 - margin: 20px 15px; // 상하 좌우
 - margin: 20px 5px 12px 9px; // 위 오른쪽 아래 왼쪽 - 시계방향
+```
 
 ### viewpoint
 
@@ -24,12 +26,14 @@
 
 ### flexbox
 
+```css
 - display: flex
 - justify-content: main-axis
 - align-items: cross-axis
 - flex-direction: row, column (기준선을 바꿀 수 있음)
 - flex-wrap: wrap
   // nowrap: 무조건 한줄, wrap: 크기에 따라 여러줄 가능
+```
 
 ### Position
 
@@ -40,7 +44,7 @@
 
 ### Pseduo selector
 
-```
+```css
 div:first-child {
   background-color: tomato;
 }
@@ -48,7 +52,7 @@ div:first-child {
 
 - div의 첫번째 자식을 selector
 
-```
+```css
 div:last-child {
   background-color: teal;
 }
