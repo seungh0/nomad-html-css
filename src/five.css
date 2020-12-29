@@ -17,3 +17,11 @@ div:first-child {
 div:last-child {
   background-color: teal;
 }
+
+span {
+  background-color: tomato;
+}
+
+span:nth-child(2) {
+  background-color: teal;
+}

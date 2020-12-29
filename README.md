@@ -39,3 +39,19 @@
 - fixed: 화면 움직여도 고정값 (네비게이션 바 같은거)
 
 ### Pseduo selector
+
+```
+div:first-child {
+  background-color: tomato;
+}
+```
+
+- div의 첫번째 자식을 selector
+
+```
+div:last-child {
+  background-color: teal;
+}
+```
+
+- div의 마지막 자식을 selector
