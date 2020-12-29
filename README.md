@@ -30,9 +30,8 @@
 - display: flex
 - justify-content: main-axis
 - align-items: cross-axis
-- flex-direction: row, column (기준선을 바꿀 수 있음)
-- flex-wrap: wrap
-  // nowrap: 무조건 한줄, wrap: 크기에 따라 여러줄 가능
+- flex-direction: row, column // 기준선을 바꿀 수 있음
+- flex-wrap: wrap // nowrap: 무조건 한줄, wrap: 크기에 따라 여러줄 가능
 ```
 
 ### Position
@@ -46,16 +45,35 @@
 
 ```css
 div:first-child {
-  background-color: tomato;
+  background-color: tomato; // div의 첫번째 자식을 selector
 }
 ```
 
-- div의 첫번째 자식을 selector
-
 ```css
 div:last-child {
+  background-color: teal; // div의 마지막 자식을 selector
+}
+```
+
+```css
+span:nth-child(2),
+span:nth-child(4),
+span:nth-child(6) {
   background-color: teal;
 }
 ```
 
-- div의 마지막 자식을 selector
+```css
+span:nth-child(even) {
+  background-color: teal;
+}
+span:nth-child(odd) {
+  background-color: tomato;
+}
+```
+
+```css
+span:nth-child(3n + 1) {
+  background-color: teal; // 이런식으로 수열로도 가능 (0, 4, 7 ...)
+}
+```
