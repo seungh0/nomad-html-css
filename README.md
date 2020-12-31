@@ -77,3 +77,18 @@ span:nth-child(3n + 1) {
   background-color: teal; // 이런식으로 수열로도 가능 (0, 4, 7 ...)
 }
 ```
+
+```css
+div span {
+  text-decoration: underline; // <div><p><span> 에도 적용이 된다,
+}
+
+div > span {
+  text-decoration: underline;  <div><span> 에만 적용이 된다. div 바로 자식의 span
+}
+
+p + span {
+  text-decoration: none; // <p> 다음에 오는 <span>
+}
+
+```

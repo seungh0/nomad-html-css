@@ -1,0 +1,22 @@
+body {
+  height: 1000vh;
+  margin: 50px;
+}
+
+span {
+  background-color: yellowgreen;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+div > span {
+  text-decoration: underline;
+}
+
+p > span {
+  color: white;
+}
+
+p + span {
+  text-decoration: none;
+}
