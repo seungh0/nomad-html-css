@@ -1,0 +1,44 @@
+body {
+  height: 1000vh;
+  margin: 50px;
+}
+
+button:active {
+  background-color: tomato; /** 마우스 클릭시*/
+}
+
+button:hover {
+  background-color: teal; /** 마우스 위에 있을때*/
+}
+
+input:focus {
+  background-color: yellowgreen; /** 키보드 + focus*/
+}
+
+a:visited {
+  color: teal; /** 방문했을때 색상이 변경*/
+}
+
+a:hover {
+  color: tomato; /** 방문했을때 색상이 변경*/
+}
+
+a:focus {
+  color: yellow; /** 방문했을때 색상이 변경*/
+}
+
+form {
+  border: 1px solid salmon;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+form:focus-within {
+  border-color: seagreen;
+  padding: 40px;
+}
+
+form:hover input:focus {
+  background-color: sienna;
+}

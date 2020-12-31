@@ -131,3 +131,19 @@ input[placeholder~="name"] {
   background-color: thistle; // name 포함
 }
 ```
+
+### State
+
+```css
+button:active {
+  background-color: tomato;
+}
+
+button:hover {
+  background-color: teal;
+}
+
+input:focus {
+  background-color: yellowgreen;
+}
+```
