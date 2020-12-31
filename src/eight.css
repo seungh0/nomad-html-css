@@ -42,3 +42,21 @@ form:focus-within {
 form:hover input:focus {
   background-color: sienna;
 }
+
+input::placeholder {
+  color: yellowgreen;
+}
+
+p::selection {
+  color: white;
+  background-color: yellowgreen;
+}
+
+p::first-letter {
+  font-size: 50px;
+  background-color: tomato;
+}
+
+p::first-line {
+  font-size: 25px;
+}
