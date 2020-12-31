@@ -88,7 +88,46 @@ div > span {
 }
 
 p + span {
-  text-decoration: none; // <p> 다음에 오는 <span>
+  text-decoration: none; // <p> 바로 다음에 오는 <span>
 }
 
+p ~ span {
+  color: red; // <p> 다음에 오는 형제<span>
+}
+
+
+```
+
+```css
+input:required {
+  border: 1px solid tomato;
+}
+```
+
+```html
+<input type="password" required placeholder="password" / >
+```
+
+```css
+> input:optional {
+> border: 1px solid teal;
+> }
+```
+
+```html
+<input type="text" placeholder="username" /
+```
+
+```css
+input[type="password"] {
+  background-color: thistle;
+}
+
+input[placeholder="username"] {
+  background-color: thistle;
+}
+
+input[placeholder~="name"] {
+  background-color: thistle; // name 포함
+}
 ```

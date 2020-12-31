@@ -20,3 +20,7 @@ p > span {
 p + span {
   text-decoration: none;
 }
+
+p ~ span {
+  color: red;
+}
