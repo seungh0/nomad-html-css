@@ -144,6 +144,27 @@ button:hover {
 }
 
 input:focus {
-  background-color: yellowgreen;
+  background-color: yellowgreen; /** 키보드 + focus*/
+}
+
+a:visited {
+  color: teal; /** 방문했을때 색상이 변경*/
+}
+
+a:hover {
+  color: tomato; /** 방문했을때 색상이 변경*/
+}
+
+a:focus {
+  color: yellow; /** 방문했을때 색상이 변경*/
+}
+
+form:focus-within {
+  border-color: seagreen;
+  padding: 40px;
+}
+
+form:hover input:focus {
+  background-color: sienna;
 }
 ```
