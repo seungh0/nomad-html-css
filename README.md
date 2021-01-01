@@ -168,3 +168,28 @@ form:hover input:focus {
   background-color: sienna;
 }
 ```
+
+### Media Query
+
+오직 CSS만을 이용해서 스크린의 사이즈를 알 수 있는 방법.
+
+```css
+@media screen and (max-width: 600px) {
+  div {
+    background-color: tomato;
+  }
+}
+
+/** 스크린이 width 600 ~ 1200px */
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+  div {
+    background-color: wheat;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  div {
+    background-color: turquoise;
+  }
+}
+```
