@@ -1,0 +1,17 @@
+a {
+  color: wheat;
+  background-color: tomato;
+  text-decoration: none;
+  padding: 3px 5px;
+  border-radius: 5px;
+  font-size: 55px;
+  /* transition: background-color 10s ease-in-out, color 5s ease-in-out; */
+  transition: all 5s ease-in-out;
+  /** transition은 state가 없는 곳에서 사용해야함 = root element */
+}
+
+a:hover {
+  border-radius: 15px;
+  color: tomato;
+  background-color: wheat;
+}
